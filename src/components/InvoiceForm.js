@@ -191,7 +191,7 @@ function InvoiceForm() {
                   }}>
                   <span className="fw-bold">Total:
                   </span>
-                  <span className="fw-bold">{state.currency}
+                  <span className="fw-bold" id="total">{state.currency}
                     {total || 0}</span>
                 </div>
               </Col>

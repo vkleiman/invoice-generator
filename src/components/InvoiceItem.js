@@ -26,7 +26,7 @@ export default function InvoiceItem ({onItemizedItemEdit, currency, onRowAdd, on
             {itemTable}
           </tbody>
         </Table>
-        <Button className="fw-bold" onClick={onRowAdd}>Add Item</Button>
+        <Button className="fw-bold" id="add_item" onClick={onRowAdd}>Add Item</Button>
       </div>
     );
   }
